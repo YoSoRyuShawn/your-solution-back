@@ -8,6 +8,7 @@ exports.up = function (knex) {
     table.text("availability");
     table.text("image");
     table.text("zoom");
+    table.text("description");
   });
 };
 

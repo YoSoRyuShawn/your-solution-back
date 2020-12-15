@@ -2,6 +2,16 @@
 # yarn lockfile v1
 
 
+"@stripe/stripe-js@^1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@stripe/stripe-js/-/stripe-js-1.11.0.tgz#00e812d72a7760dae08237875066d263671478ee"
+  integrity sha512-SDNZKuETBEVkernd1tq8tL6wNfVKrl24Txs3p+4NYxoaIbNaEO7mrln/2Y/WRcQBWjagvhDIM5I6+X1rfK0qhQ==
+
+"@types/node@>=8.1.0":
+  version "14.14.13"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.13.tgz#9e425079799322113ae8477297ae6ef51b8e0cdf"
+  integrity sha512-vbxr0VZ8exFMMAjCW8rJwaya0dMCDyYW2ZRdTyjtrCvJoENMpdUHOT/eTzvgyA5ZnqRZ/sI0NwqAxNHKYokLJQ==
+
 accepts@~1.3.5:
   version "1.3.7"
   resolved "https://registry.yarnpkg.com/accepts/-/accepts-1.3.7.tgz#531bc726517a3b2b41f850021c6cc15eaab507cd"
@@ -1186,6 +1196,14 @@ path-to-regexp@0.1.7:
   resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-0.1.7.tgz#df604178005f522f15eb4490e7247a1bfaa67f8c"
   integrity sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=
 
+path@^0.12.7:
+  version "0.12.7"
+  resolved "https://registry.yarnpkg.com/path/-/path-0.12.7.tgz#d4dc2a506c4ce2197eb481ebfcd5b36c0140b10f"
+  integrity sha1-1NwqUGxM4hl+tIHr/NWzbAFAsQ8=
+  dependencies:
+    process "^0.11.1"
+    util "^0.10.3"
+
 pg-connection-string@2.4.0, pg-connection-string@^2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/pg-connection-string/-/pg-connection-string-2.4.0.tgz#c979922eb47832999a204da5dbe1ebf2341b6a10"
@@ -1264,6 +1282,11 @@ postgres-interval@^1.1.0:
   dependencies:
     xtend "^4.0.0"
 
+process@^0.11.1:
+  version "0.11.10"
+  resolved "https://registry.yarnpkg.com/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
+  integrity sha1-czIwDoQBYb2j5podHZGn1LwW8YI=
+
 promise@^6.0.1:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/promise/-/promise-6.1.0.tgz#2ce729f6b94b45c26891ad0602c5c90e04c6eef6"
@@ -1290,6 +1313,11 @@ qs@6.5.2:
   version "6.5.2"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+
+qs@^6.6.0:
+  version "6.9.4"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.9.4.tgz#9090b290d1f91728d3c22e54843ca44aea5ab687"
+  integrity sha512-A1kFqHekCTM7cz0udomYUoYNWjBebHm/5wzU/XqrBRBNWectVH0QIiN+NEcZ0Dte5hvzHwbr8+XQmguPhJ6WdQ==
 
 range-parser@~1.2.0:
   version "1.2.1"
@@ -1543,6 +1571,14 @@ string_decoder@^1.1.1:
   dependencies:
     safe-buffer "~5.2.0"
 
+stripe@^8.128.0:
+  version "8.128.0"
+  resolved "https://registry.yarnpkg.com/stripe/-/stripe-8.128.0.tgz#0074a68a5236e691ae96232363865838af0a3777"
+  integrity sha512-H4EiwM/jYm07Foc77Xdb6SbnOpUz/qLpXv69pJBgXHvpxpj7GhdGdxCbR4KJhisfoZATgrdrbqigLA1ao9nTzg==
+  dependencies:
+    "@types/node" ">=8.1.0"
+    qs "^6.6.0"
+
 tarn@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/tarn/-/tarn-3.0.1.tgz#ebac2c6dbc6977d34d4526e0a7814200386a8aec"
@@ -1660,6 +1696,13 @@ util-deprecate@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
+
+util@^0.10.3:
+  version "0.10.4"
+  resolved "https://registry.yarnpkg.com/util/-/util-0.10.4.tgz#3aa0125bfe668a4672de58857d3ace27ecb76901"
+  integrity sha512-0Pm9hTQ3se5ll1XihRic3FDIku70C+iHUdT/W926rSgHV5QgXsYbKZN8MSC3tJtSkhuROzvsQjAaFENRXr+19A==
+  dependencies:
+    inherits "2.0.3"
 
 utils-merge@1.0.1:
   version "1.0.1"

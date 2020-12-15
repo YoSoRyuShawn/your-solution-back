@@ -1,5 +1,7 @@
 ## Your Solution
 
+A database of doctors that you can consult online.
+
 ![database schema](./assets/yoursolution-schema.jpg)
 
 ## Technologies Used

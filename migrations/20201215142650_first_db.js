@@ -5,10 +5,11 @@ exports.up = function (knex) {
     table.text("first_name");
     table.text("last_name");
     table.text("specialty");
-    table.text("availability");
+    table.json("availability");
     table.text("image");
     table.text("zoom");
     table.text("description");
+    table.integer("price");
   });
 };
 

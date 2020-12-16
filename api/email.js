@@ -14,10 +14,9 @@ router.post("/", (req, res) => {
     let transporter = nodemailer.createTransport({
       host: "in-v3.mailjet.com",
       port: 587,
-      //   service: "gmail",
       auth: {
-        user: "38a2fdc1f3970185e881f5048f6f7e5d",
-        pass: "6b88263c59f852545f654b97773b22f4",
+        user: process.env.MAILJET_USER,
+        pass: process.env.MAILJET_PASS,
       },
     });
     let mailOptions = {

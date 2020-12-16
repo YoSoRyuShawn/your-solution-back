@@ -106,7 +106,7 @@ module.exports = [
     price: 3000,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eleifend, nisl ac lobortis pellentesque, elit nibh efficitur arcu, eu auctor turpis nisi vitae nunc. Nullam congue erat vitae dui posuere lobortis. Proin arcu risus, ultricies ac feugiat quis, consectetur a felis. Maecenas egestas porta metus at pharetra. Nam tempus volutpat. ",
-    image: "https://randomuser.me/api/portraits/men/49.jpg",
+    image: "https://randomuser.me/api/portraits/men/50.jpg",
   },
   {
     first_name: "Roderich",
@@ -125,7 +125,7 @@ module.exports = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eleifend, nisl ac lobortis pellentesque, elit nibh efficitur arcu, eu auctor turpis nisi vitae nunc. Nullam congue erat vitae dui posuere lobortis. Proin arcu risus, ultricies ac feugiat quis, consectetur a felis. Maecenas egestas porta metus at pharetra. Nam tempus volutpat. ",
     image:
-      "https://randomuser.me/api/portraits/men/49.jpg",
+      "https://randomuser.me/api/portraits/men/51.jpg",
   },
   {
     first_name: "Brodie",
@@ -252,7 +252,7 @@ module.exports = [
     price: 3000,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eleifend, nisl ac lobortis pellentesque, elit nibh efficitur arcu, eu auctor turpis nisi vitae nunc. Nullam congue erat vitae dui posuere lobortis. Proin arcu risus, ultricies ac feugiat quis, consectetur a felis. Maecenas egestas porta metus at pharetra. Nam tempus volutpat. ",
-    image: "https://randomuser.me/api/portraits/men/6.jpg",
+    image: "https://randomuser.me/api/portraits/men/94.jpg",
   },
   {
     first_name: "Justus",
@@ -325,7 +325,7 @@ module.exports = [
     price: 5000,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eleifend, nisl ac lobortis pellentesque, elit nibh efficitur arcu, eu auctor turpis nisi vitae nunc. Nullam congue erat vitae dui posuere lobortis. Proin arcu risus, ultricies ac feugiat quis, consectetur a felis. Maecenas egestas porta metus at pharetra. Nam tempus volutpat. ",
-    image: "https://randomuser.me/api/portraits/women/29.jpg",
+    image: "https://randomuser.me/api/portraits/women/22.jpg",
   },
   {
     first_name: "Tiebout",
@@ -343,7 +343,7 @@ module.exports = [
     price: 3000,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eleifend, nisl ac lobortis pellentesque, elit nibh efficitur arcu, eu auctor turpis nisi vitae nunc. Nullam congue erat vitae dui posuere lobortis. Proin arcu risus, ultricies ac feugiat quis, consectetur a felis. Maecenas egestas porta metus at pharetra. Nam tempus volutpat. ",
-    image: "https://randomuser.me/api/portraits/women/29.jpg",
+    image: "https://randomuser.me/api/portraits/women/72.jpg",
   },
   {
     first_name: "Kelsi",
@@ -816,7 +816,7 @@ module.exports = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eleifend, nisl ac lobortis pellentesque, elit nibh efficitur arcu, eu auctor turpis nisi vitae nunc. Nullam congue erat vitae dui posuere lobortis. Proin arcu risus, ultricies ac feugiat quis, consectetur a felis. Maecenas egestas porta metus at pharetra. Nam tempus volutpat. ",
     image:
-      "https://randomuser.me/api/portraits/women/29.jpg",
+      "https://randomuser.me/api/portraits/women/59.jpg",
   },
   {
     first_name: "Marlin",
@@ -870,7 +870,7 @@ module.exports = [
     price: 1500,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eleifend, nisl ac lobortis pellentesque, elit nibh efficitur arcu, eu auctor turpis nisi vitae nunc. Nullam congue erat vitae dui posuere lobortis. Proin arcu risus, ultricies ac feugiat quis, consectetur a felis. Maecenas egestas porta metus at pharetra. Nam tempus volutpat. ",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: "https://randomuser.me/api/portraits/women/46.jpg",
   },
   {
     first_name: "Cathleen",

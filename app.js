@@ -11,6 +11,7 @@ app.use(cors());
 const doctors = require("./api/doctors");
 const checkout = require("./api/checkout");
 const zoomMeeting = require("./api/zoomMeeting");
+const email = require("./api/email");
 
 app.use(logger("dev"));
 app.use(express.json());
@@ -20,6 +21,7 @@ app.use(cookieParser());
 app.use("/api/doctors", doctors);
 app.use("/createPaymentIntent", checkout);
 app.use("/zoomMeeting", zoomMeeting);
+app.use("/email", email);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

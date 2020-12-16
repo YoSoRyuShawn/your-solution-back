@@ -4,12 +4,13 @@ const path = require("path");
 const cookieParser = require("cookie-parser");
 const logger = require("morgan");
 const cors = require("cors");
-app.use(cors());
 
 const app = express();
+app.use(cors());
 
 const doctors = require("./api/doctors");
 const checkout = require("./api/checkout");
+const pay = require("./api/pay");
 
 app.use(logger("dev"));
 app.use(express.json());
@@ -17,7 +18,8 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 app.use("/api/doctors", doctors);
-app.use("/api/checkout", checkout);
+app.use("/createPaymentIntent", checkout);
+// app.use("/", pay); <----This is for stripe official sample code
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

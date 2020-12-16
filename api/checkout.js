@@ -4,7 +4,7 @@ require("dotenv").config();
 
 const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 
-router.post("/createPaymentIntent", async (req, res) => {
+router.post("/", async (req, res) => {
   const result = await stripe.paymentIntents.create({
     amount: req.body.amount,
     currency: "jpy",
@@ -12,7 +12,7 @@ router.post("/createPaymentIntent", async (req, res) => {
     // metadata: { username: req.body.username, tranId: "11111" },
   });
 
-  console.log(result);
+  console.log("Result", result);
   res.json(result);
 });
 

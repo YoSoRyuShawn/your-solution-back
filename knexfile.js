@@ -16,4 +16,4 @@ module.exports = {
     connection: process.env.DATABASE_URL,
   },
 };
-//please work ==> Yeah it worked after deleting app in Heroku!
+//please work ==> Yeah it worked after deleting app once in Heroku!

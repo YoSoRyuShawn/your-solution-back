@@ -1,4 +1,8 @@
 node_modules
+/api/pay.js
+/client_old
+/client
+/build
 .env
 *.seed
 /dist

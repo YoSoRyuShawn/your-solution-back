@@ -12,9 +12,9 @@ router.post("/", async (req, res) => {
       authorization: `Bearer ${process.env.ZOOM_API_TOKEN}`,
     },
     json: {
-      topic: "Weekly Meeting",
+      topic: "Doctor Consulting",
       type: "2",
-      start_time: "2020-04-27T18:30:00",
+      start_time: "2021-01-01T18:30:00",
       timezone: "Asia/Tokyo",
       settings: {
         use_pmi: "false",

@@ -10,4 +10,17 @@ router.get("/", (req, res) => {
   });
 });
 
+router.get("/:id", (req,res) => {
+  queries.getOne(req.params.id).then(doctor => {
+    res.json(doctor)
+  })
+})
+
+// to update table by id
+router.put("/:id", (req, res, next) => {
+  queries.update(req.params.id, req.body).then(doctors => {
+    res.json(doctors[0]);
+  })
+})
+
 module.exports = router;

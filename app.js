@@ -12,6 +12,7 @@ const doctors = require("./api/doctors");
 const checkout = require("./api/checkout");
 const zoomMeeting = require("./api/zoomMeeting");
 const email = require("./api/email");
+const users = require("./api/users");
 
 app.use(logger("dev"));
 app.use(express.json());
@@ -22,6 +23,7 @@ app.use("/api/doctors", doctors);
 app.use("/createPaymentIntent", checkout);
 app.use("/zoomMeeting", zoomMeeting);
 app.use("/email", email);
+app.use("/api/users", users);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

@@ -16,6 +16,7 @@ router.get("/:id", (req,res) => {
   })
 })
 
+// to update table by id
 router.put("/:id", (req, res, next) => {
   queries.update(req.params.id, req.body).then(doctors => {
     res.json(doctors[0]);

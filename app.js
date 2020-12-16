@@ -10,7 +10,7 @@ app.use(cors());
 
 const doctors = require("./api/doctors");
 const checkout = require("./api/checkout");
-const pay = require("./api/pay");
+// const pay = require("./api/pay");
 
 app.use(logger("dev"));
 app.use(express.json());

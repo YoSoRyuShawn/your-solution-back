@@ -25,16 +25,17 @@ router.post("/", (req, res) => {
     let mailOptions = {
       from: "bayezid1989@live.jp",
       to: `${req.body.email}`,
-      replyTo: "test@testaccount.com",
+      replyTo: "bayezid1989@live.jp",
       subject: "Hey, Doc Booking Confirmation",
       text: "Booking complleted!",
       html: htmlEmail,
     };
-    transporter.sendMail(mailOptions, (err, info) => {
+    const res = transporter.sendMail(mailOptions, (err, info) => {
       if (err) return console.log(err);
       console.log("Message sent", info.message);
       console.log("Message URL", nodemailer.getTestMessageUrl(info));
     });
+    console.log(res);
   });
 });
 

@@ -7,7 +7,7 @@ const moment = require("moment");
 router.post("/", (req, res) => {
   console.log;
   nodemailer.createTestAccount(async (err, account) => {
-    const date = moment(`${req.body.date}`).format("MMM Do YYYY");
+    const date = moment(`${req.body.date}`).format("MMM Do");
     const htmlEmail = `
         <!DOCTYPE html>
         <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
@@ -328,7 +328,7 @@ router.post("/", (req, res) => {
                         <td style="padding: 0 2.5em; text-align: center; padding-bottom: 3em;">
                           <div class="text">
                             <h2>Congrats, ${req.body.userName}.</h2>
-                            <h2>Meeting has been booked!</h2>
+                            <h2>Your meeting has been booked!</h2>
                           </div>
                         </td>
                       </tr>

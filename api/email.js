@@ -6,7 +6,7 @@ const moment = require("moment");
 
 router.post("/", (req, res) => {
   console.log;
-  nodemailer.createTestAccount((err, account) => {
+  nodemailer.createTestAccount(async (err, account) => {
     const date = moment(`${req.body.date}`).format("MMM Do YYYY");
     const htmlEmail = `
         <h3>Dear ${req.body.userName}</h3>
@@ -30,12 +30,15 @@ router.post("/", (req, res) => {
       text: "Booking complleted!",
       html: htmlEmail,
     };
-    const res = transporter.sendMail(mailOptions, (err, info) => {
-      if (err) return console.log(err);
-      console.log("Message sent", info.message);
-      console.log("Message URL", nodemailer.getTestMessageUrl(info));
+    transporter.sendMail(mailOptions, (err, info) => {
+      if (err) {
+        return console.log(err);
+      } else {
+        console.log("Message sent", info.message);
+        console.log("Message URL", nodemailer.getTestMessageUrl(info));
+        res.send(200);
+      }
     });
-    console.log(res);
   });
 });
 

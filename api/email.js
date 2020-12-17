@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const nodemailer = require("nodemailer");
 require("dotenv").config();
+const moment = require("moment");
 
 router.post("/", (req, res) => {
   console.log;
@@ -11,7 +12,7 @@ router.post("/", (req, res) => {
         <h3>Dear ${req.body.userName}</h3>
         <h3>Meeting Confirmation</h3>
         <p>Meeting with ${req.body.doctorName} at ${req.body.time}, ${date}</p>
-        <a href=${req.body.url}>Here is the zoom link!</a>
+        <a href=${req.body.url}>Here is the zoom link! ${req.body.url}</a>
         `;
     let transporter = nodemailer.createTransport({
       host: "in-v3.mailjet.com",

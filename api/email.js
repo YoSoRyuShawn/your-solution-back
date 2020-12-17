@@ -6,9 +6,11 @@ require("dotenv").config();
 router.post("/", (req, res) => {
   console.log;
   nodemailer.createTestAccount((err, account) => {
+    const date = moment(`${req.body.date}`).format("MMM Do YYYY");
     const htmlEmail = `
+        <h3>Dear ${req.body.userName}</h3>
         <h3>Meeting Confirmation</h3>
-        <p>Meeting with ${req.body.firstName} ${req.body.lastName} at ${req.body.time}</p>
+        <p>Meeting with ${req.body.doctorName} at ${req.body.time}, ${date}</p>
         <a href=${req.body.url}>Here is the zoom link!</a>
         `;
     let transporter = nodemailer.createTransport({

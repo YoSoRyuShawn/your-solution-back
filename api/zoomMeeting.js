@@ -14,7 +14,7 @@ router.post("/", async (req, res) => {
     json: {
       topic: "Doctor Consulting",
       type: "2",
-      start_time: "2021-01-01T18:30:00",
+      start_time: req.body.time,
       timezone: "Asia/Tokyo",
       settings: {
         use_pmi: "false",

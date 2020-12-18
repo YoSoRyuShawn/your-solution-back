@@ -12,7 +12,7 @@ router.post("/", async (req, res) => {
       authorization: `Bearer ${process.env.ZOOM_API_TOKEN}`,
     },
     json: {
-      topic: `Doctor Consultation (User: ${req.body.username} / Doctor: ${req.body.doctorName})`,
+      topic: `Doctor Consultation (User: ${req.body.userName} / Doctor: ${req.body.doctorName})`,
       type: "2",
       start_time: req.body.time,
       timezone: "Asia/Tokyo",

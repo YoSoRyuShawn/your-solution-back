@@ -315,7 +315,7 @@ router.post("/", (req, res) => {
                     <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
                       <tr>
                         <td class="logo" style="text-align: center;">
-                        <img src="https://your-solution-front.vercel.app/logo.png"alt="" style="width: 100px; max-width: 600px; height: auto; margin: auto; display: block;">
+                        <img src="https://your-solution-front.vercel.app/logo.jpg"alt="" style="width: 100px; max-width: 600px; height: auto; margin: auto; display: block;">
                         </td>
                       </tr>
                     </table>

@@ -4,7 +4,7 @@ module.exports = [
     last_name: "Floyd",
     specialty: "Surgeon",
     availability: {
-      Sunday: [1130, 1700, 1915],
+      Sunday: [],
       Monday: [1400, 1830],
       Tuesday: [1245, 1815, 1500],
       Wednesday: [1700],
@@ -26,7 +26,7 @@ module.exports = [
       Monday: [1400, 1830],
       Tuesday: [1245, 1815, 1500],
       Wednesday: [1700],
-      Thursday: [900, 1330, 1420],
+      Thursday: [],
       Friday: [1800, 1945, 2030],
       Saturday: [1045, 1130, 1730],
     },
@@ -40,7 +40,7 @@ module.exports = [
     last_name: "Laybourne",
     specialty: "Pharmacist",
     availability: {
-      Sunday: [1130, 1700, 1915],
+      Sunday: [],
       Monday: [1400, 1830],
       Tuesday: [1245, 1815, 1500],
       Wednesday: [1700],
@@ -58,7 +58,7 @@ module.exports = [
     last_name: "Frayling",
     specialty: "Physical Therapist",
     availability: {
-      Sunday: [1130, 1700, 1915],
+      Sunday: [],
       Monday: [1400, 1830],
       Tuesday: [1245, 1815, 1500],
       Wednesday: [1700],
@@ -69,15 +69,14 @@ module.exports = [
     price: 3000,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eleifend, nisl ac lobortis pellentesque, elit nibh efficitur arcu, eu auctor turpis nisi vitae nunc. Nullam congue erat vitae dui posuere lobortis. Proin arcu risus, ultricies ac feugiat quis, consectetur a felis. Maecenas egestas porta metus at pharetra. Nam tempus volutpat. ",
-    image:
-      "https://randomuser.me/api/portraits/women/78.jpg",
+    image: "https://randomuser.me/api/portraits/women/78.jpg",
   },
   {
     first_name: "Shelli",
     last_name: "Drane",
     specialty: "Physical Therapist",
     availability: {
-      Sunday: [1130, 1700, 1915],
+      Sunday: [],
       Monday: [1400, 1830],
       Tuesday: [1245, 1815, 1500],
       Wednesday: [1700],
@@ -113,7 +112,7 @@ module.exports = [
     last_name: "Cawcutt",
     specialty: "Dermatologist",
     availability: {
-      Sunday: [1130, 1700, 1915],
+      Sunday: [],
       Monday: [1400, 1830],
       Tuesday: [1245, 1815, 1500],
       Wednesday: [1700],
@@ -124,8 +123,7 @@ module.exports = [
     price: 5000,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eleifend, nisl ac lobortis pellentesque, elit nibh efficitur arcu, eu auctor turpis nisi vitae nunc. Nullam congue erat vitae dui posuere lobortis. Proin arcu risus, ultricies ac feugiat quis, consectetur a felis. Maecenas egestas porta metus at pharetra. Nam tempus volutpat. ",
-    image:
-      "https://randomuser.me/api/portraits/men/51.jpg",
+    image: "https://randomuser.me/api/portraits/men/51.jpg",
   },
   {
     first_name: "Brodie",
@@ -136,7 +134,7 @@ module.exports = [
       Monday: [1400, 1830],
       Tuesday: [1245, 1815, 1500],
       Wednesday: [1700],
-      Thursday: [900, 1330, 1420],
+      Thursday: [],
       Friday: [1800, 1945, 2030],
       Saturday: [1045, 1130, 1730],
     },
@@ -152,7 +150,7 @@ module.exports = [
     availability: {
       Sunday: [1130, 1700, 1915],
       Monday: [1400, 1830],
-      Tuesday: [1245, 1815, 1500],
+      Tuesday: [],
       Wednesday: [1700],
       Thursday: [900, 1330, 1420],
       Friday: [1800, 1945, 2030],
@@ -168,7 +166,7 @@ module.exports = [
     last_name: "Ridgway",
     specialty: "General Physician",
     availability: {
-      Sunday: [1130, 1700, 1915],
+      Sunday: [],
       Monday: [1400, 1830],
       Tuesday: [1245, 1815, 1500],
       Wednesday: [1700],
@@ -179,8 +177,7 @@ module.exports = [
     price: 3000,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eleifend, nisl ac lobortis pellentesque, elit nibh efficitur arcu, eu auctor turpis nisi vitae nunc. Nullam congue erat vitae dui posuere lobortis. Proin arcu risus, ultricies ac feugiat quis, consectetur a felis. Maecenas egestas porta metus at pharetra. Nam tempus volutpat. ",
-    image:
-      "https://randomuser.me/api/portraits/men/71.jpg",
+    image: "https://randomuser.me/api/portraits/men/71.jpg",
   },
   {
     first_name: "Nevsa",
@@ -188,7 +185,7 @@ module.exports = [
     specialty: "General Physician",
     availability: {
       Sunday: [1130, 1700, 1915],
-      Monday: [1400, 1830],
+      Monday: [],
       Tuesday: [1245, 1815, 1500],
       Wednesday: [1700],
       Thursday: [900, 1330, 1420],
@@ -205,13 +202,13 @@ module.exports = [
     last_name: "Corringham",
     specialty: "General Physician",
     availability: {
-      Sunday: [1130, 1700, 1915],
+      Sunday: [],
       Monday: [1400, 1830],
       Tuesday: [1245, 1815, 1500],
       Wednesday: [1700],
       Thursday: [900, 1330, 1420],
       Friday: [1800, 1945, 2030],
-      Saturday: [1045, 1130, 1730],
+      Saturday: [],
     },
     price: 3000,
     description:
@@ -226,7 +223,7 @@ module.exports = [
       Sunday: [1130, 1700, 1915],
       Monday: [1400, 1830],
       Tuesday: [1245, 1815, 1500],
-      Wednesday: [1700],
+      Wednesday: [],
       Thursday: [900, 1330, 1420],
       Friday: [1800, 1945, 2030],
       Saturday: [1045, 1130, 1730],
@@ -246,7 +243,7 @@ module.exports = [
       Tuesday: [1245, 1815, 1500],
       Wednesday: [1700],
       Thursday: [900, 1330, 1420],
-      Friday: [1800, 1945, 2030],
+      Friday: [],
       Saturday: [1045, 1130, 1730],
     },
     price: 3000,
@@ -262,7 +259,7 @@ module.exports = [
       Sunday: [1130, 1700, 1915],
       Monday: [1400, 1830],
       Tuesday: [1245, 1815, 1500],
-      Wednesday: [1700],
+      Wednesday: [],
       Thursday: [900, 1330, 1420],
       Friday: [1800, 1945, 2030],
       Saturday: [1045, 1130, 1730],
@@ -270,8 +267,7 @@ module.exports = [
     price: 2000,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eleifend, nisl ac lobortis pellentesque, elit nibh efficitur arcu, eu auctor turpis nisi vitae nunc. Nullam congue erat vitae dui posuere lobortis. Proin arcu risus, ultricies ac feugiat quis, consectetur a felis. Maecenas egestas porta metus at pharetra. Nam tempus volutpat. ",
-    image:
-      "https://randomuser.me/api/portraits/women/80.jpg",
+    image: "https://randomuser.me/api/portraits/women/80.jpg",
   },
   {
     first_name: "Hannie",
@@ -283,7 +279,7 @@ module.exports = [
       Tuesday: [1245, 1815, 1500],
       Wednesday: [1700],
       Thursday: [900, 1330, 1420],
-      Friday: [1800, 1945, 2030],
+      Friday: [],
       Saturday: [1045, 1130, 1730],
     },
     price: 3000,
@@ -298,7 +294,7 @@ module.exports = [
     availability: {
       Sunday: [1130, 1700, 1915],
       Monday: [1400, 1830],
-      Tuesday: [1245, 1815, 1500],
+      Tuesday: [],
       Wednesday: [1700],
       Thursday: [900, 1330, 1420],
       Friday: [1800, 1945, 2030],
@@ -314,7 +310,7 @@ module.exports = [
     last_name: "Iltchev",
     specialty: "Dentist",
     availability: {
-      Sunday: [1130, 1700, 1915],
+      Sunday: [],
       Monday: [1400, 1830],
       Tuesday: [1245, 1815, 1500],
       Wednesday: [1700],
@@ -336,7 +332,7 @@ module.exports = [
       Monday: [1400, 1830],
       Tuesday: [1245, 1815, 1500],
       Wednesday: [1700],
-      Thursday: [900, 1330, 1420],
+      Thursday: [],
       Friday: [1800, 1945, 2030],
       Saturday: [1045, 1130, 1730],
     },
@@ -352,7 +348,7 @@ module.exports = [
     availability: {
       Sunday: [1130, 1700, 1915],
       Monday: [1400, 1830],
-      Tuesday: [1245, 1815, 1500],
+      Tuesday: [],
       Wednesday: [1700],
       Thursday: [900, 1330, 1420],
       Friday: [1800, 1945, 2030],
@@ -373,7 +369,7 @@ module.exports = [
       Tuesday: [1245, 1815, 1500],
       Wednesday: [1700],
       Thursday: [900, 1330, 1420],
-      Friday: [1800, 1945, 2030],
+      Friday: [],
       Saturday: [1045, 1130, 1730],
     },
     price: 3000,
@@ -388,7 +384,7 @@ module.exports = [
     availability: {
       Sunday: [1130, 1700, 1915],
       Monday: [1400, 1830],
-      Tuesday: [1245, 1815, 1500],
+      Tuesday: [],
       Wednesday: [1700],
       Thursday: [900, 1330, 1420],
       Friday: [1800, 1945, 2030],
@@ -407,7 +403,7 @@ module.exports = [
       Sunday: [1130, 1700, 1915],
       Monday: [1400, 1830],
       Tuesday: [1245, 1815, 1500],
-      Wednesday: [1700],
+      Wednesday: [],
       Thursday: [900, 1330, 1420],
       Friday: [1800, 1945, 2030],
       Saturday: [1045, 1130, 1730],
@@ -415,8 +411,7 @@ module.exports = [
     price: 3000,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eleifend, nisl ac lobortis pellentesque, elit nibh efficitur arcu, eu auctor turpis nisi vitae nunc. Nullam congue erat vitae dui posuere lobortis. Proin arcu risus, ultricies ac feugiat quis, consectetur a felis. Maecenas egestas porta metus at pharetra. Nam tempus volutpat. ",
-    image:
-      "https://randomuser.me/api/portraits/men/1.jpg",
+    image: "https://randomuser.me/api/portraits/men/1.jpg",
   },
   {
     first_name: "Caria",
@@ -424,7 +419,7 @@ module.exports = [
     specialty: "Pediatrician",
     availability: {
       Sunday: [1130, 1700, 1915],
-      Monday: [1400, 1830],
+      Monday: [],
       Tuesday: [1245, 1815, 1500],
       Wednesday: [1700],
       Thursday: [900, 1330, 1420],
@@ -434,8 +429,7 @@ module.exports = [
     price: 3000,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eleifend, nisl ac lobortis pellentesque, elit nibh efficitur arcu, eu auctor turpis nisi vitae nunc. Nullam congue erat vitae dui posuere lobortis. Proin arcu risus, ultricies ac feugiat quis, consectetur a felis. Maecenas egestas porta metus at pharetra. Nam tempus volutpat. ",
-    image:
-      "https://randomuser.me/api/portraits/women/75.jpg",
+    image: "https://randomuser.me/api/portraits/women/75.jpg",
   },
   {
     first_name: "Davon",
@@ -443,11 +437,11 @@ module.exports = [
     specialty: "Pediatrician",
     availability: {
       Sunday: [1130, 1700, 1915],
-      Monday: [1400, 1830],
+      Monday: [],
       Tuesday: [1245, 1815, 1500],
       Wednesday: [1700],
       Thursday: [900, 1330, 1420],
-      Friday: [1800, 1945, 2030],
+      Friday: [],
       Saturday: [1045, 1130, 1730],
     },
     price: 5500,
@@ -463,7 +457,7 @@ module.exports = [
       Sunday: [1130, 1700, 1915],
       Monday: [1400, 1830],
       Tuesday: [1245, 1815, 1500],
-      Wednesday: [1700],
+      Wednesday: [],
       Thursday: [900, 1330, 1420],
       Friday: [1800, 1945, 2030],
       Saturday: [1045, 1130, 1730],
@@ -484,13 +478,12 @@ module.exports = [
       Wednesday: [1700],
       Thursday: [900, 1330, 1420],
       Friday: [1800, 1945, 2030],
-      Saturday: [1045, 1130, 1730],
+      Saturday: [],
     },
     price: 6300,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eleifend, nisl ac lobortis pellentesque, elit nibh efficitur arcu, eu auctor turpis nisi vitae nunc. Nullam congue erat vitae dui posuere lobortis. Proin arcu risus, ultricies ac feugiat quis, consectetur a felis. Maecenas egestas porta metus at pharetra. Nam tempus volutpat. ",
-    image:
-      "https://randomuser.me/api/portraits/women/10.jpg",
+    image: "https://randomuser.me/api/portraits/women/10.jpg",
   },
   {
     first_name: "Cesya",
@@ -503,7 +496,7 @@ module.exports = [
       Wednesday: [1700],
       Thursday: [900, 1330, 1420],
       Friday: [1800, 1945, 2030],
-      Saturday: [1045, 1130, 1730],
+      Saturday: [],
     },
     price: 3000,
     description:
@@ -520,7 +513,7 @@ module.exports = [
       Tuesday: [1245, 1815, 1500],
       Wednesday: [1700],
       Thursday: [900, 1330, 1420],
-      Friday: [1800, 1945, 2030],
+      Friday: [],
       Saturday: [1045, 1130, 1730],
     },
     price: 5200,
@@ -536,7 +529,7 @@ module.exports = [
       Sunday: [1130, 1700, 1915],
       Monday: [1400, 1830],
       Tuesday: [1245, 1815, 1500],
-      Wednesday: [1700],
+      Wednesday: [],
       Thursday: [900, 1330, 1420],
       Friday: [1800, 1945, 2030],
       Saturday: [1045, 1130, 1730],
@@ -555,7 +548,7 @@ module.exports = [
       Monday: [1400, 1830],
       Tuesday: [1245, 1815, 1500],
       Wednesday: [1700],
-      Thursday: [900, 1330, 1420],
+      Thursday: [],
       Friday: [1800, 1945, 2030],
       Saturday: [1045, 1130, 1730],
     },
@@ -778,8 +771,7 @@ module.exports = [
     price: 6500,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eleifend, nisl ac lobortis pellentesque, elit nibh efficitur arcu, eu auctor turpis nisi vitae nunc. Nullam congue erat vitae dui posuere lobortis. Proin arcu risus, ultricies ac feugiat quis, consectetur a felis. Maecenas egestas porta metus at pharetra. Nam tempus volutpat. ",
-    image:
-      "https://randomuser.me/api/portraits/women/49.jpg",
+    image: "https://randomuser.me/api/portraits/women/49.jpg",
   },
   {
     first_name: "Stacee",
@@ -815,8 +807,7 @@ module.exports = [
     price: 8000,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eleifend, nisl ac lobortis pellentesque, elit nibh efficitur arcu, eu auctor turpis nisi vitae nunc. Nullam congue erat vitae dui posuere lobortis. Proin arcu risus, ultricies ac feugiat quis, consectetur a felis. Maecenas egestas porta metus at pharetra. Nam tempus volutpat. ",
-    image:
-      "https://randomuser.me/api/portraits/women/59.jpg",
+    image: "https://randomuser.me/api/portraits/women/59.jpg",
   },
   {
     first_name: "Marlin",

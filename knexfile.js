@@ -3,7 +3,7 @@
 module.exports = {
   development: {
     client: "pg",
-    connection: "postgres://localhost/yoursolution",
+    connection: "postgres://localhost:pasuwa-do/yoursolution",
   },
 
   staging: {

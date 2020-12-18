@@ -328,7 +328,7 @@ router.post("/", (req, res) => {
                         <td style="padding: 0 2.5em; text-align: center; padding-bottom: 3em;">
                           <div class="text">
                             <h2>Congrats, ${req.body.userName}.</h2>
-                            <h2>Your meeting has been booked!</h2>
+                            <h2>Your doctor consultation has been booked!</h2>
                           </div>
                         </td>
                       </tr>

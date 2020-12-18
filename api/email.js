@@ -383,8 +383,8 @@ router.post("/", (req, res) => {
                               <td style="text-align: left; padding-left: 10px;">
                                 <h3 class="heading">Links</h3>
                                 <ul>
-                                  <li><a href="https://your-solution-front.vercel.app/">HEY, DOC! Web App</a></li>
-                                  <li><a href="https://github.com/YoSoRyuShawn/your-solution">Our GitHub</a></li>
+                                  <li><a href="https://your-solution-front.vercel.app/" target="_blank" rel="noopener noreferrer">HEY, DOC! Web App</a></li>
+                                  <li><a href="https://github.com/YoSoRyuShawn/your-solution" target="_blank" rel="noopener noreferrer">Our GitHub</a></li>
                                 </ul>
                               </td>
                             </tr>

@@ -336,7 +336,7 @@ router.post("/", (req, res) => {
                         <td style="text-align: center;">
                           <div class="text-author">
                             <img src=${req.body.doctorPic} alt="" style="width: 100px; max-width: 600px; height: auto; margin: auto; display: block;">
-                            <h3 class="name">${req.body.doctorName}</h3>
+                            <h3 class="name">Dr. ${req.body.doctorName}</h3>
                             <span class="position for-space">Zoom online meeting at ${req.body.time}, ${date}</span>
                             <h4 class
                              <p><a href=${req.body.url} class="btn btn-primary">Join Zoom Meeting</a></p>

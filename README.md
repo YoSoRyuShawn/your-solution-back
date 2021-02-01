@@ -17,7 +17,7 @@ https://your-solution-front.vercel.app
 
 ## Live Presentation
 
-Watch our team's live presentation of Hey, Doc! here: 
+Watch our team's live presentation of **Hey, Doc!** here: 
 
 [![Hey, Doc!](./assets/live-demo.png)](https://youtu.be/HO0ZZxaIXLs?t=3807)
 
@@ -36,4 +36,10 @@ http://knexjs.org
 
 4. Heroku
 https://www.heroku.com
+
+5. React  
+https://reactjs.org
+
+6. Next.js  
+https://nextjs.org
 

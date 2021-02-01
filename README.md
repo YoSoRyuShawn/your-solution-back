@@ -1,8 +1,27 @@
-## Your Solution
+# Hey, Doc! (Back End)
 
-A database of doctors that you can consult online.
+Welcome to the back-end repository for our Progressive Web App called, "Hey, Doc!" This is our solution to helping English-speakers in Japan who want to overcome the language barrier and find doctors that they can easily communicate with. The best part about is that they never have to leave home! 
 
-![database schema](./assets/yoursolution-schema.jpg)
+[Click here for the front end repository](https://github.com/YoSoRyuShawn/your-solution-front)
+
+## What This App Does
+This app enables users to find, book, and consult with doctors remotely. The database of doctors is easily searchable with filters for the doctors' specialties and availability. Payment is handled securely using Stripe API.
+
+## Demo
+
+Try out **Hey, Doc!** here: 
+
+https://your-solution-front.vercel.app
+
+![homepage view](./assets/main-view.png)
+
+## Live Presentation
+
+Watch our team's live presentation of Hey, Doc! here: 
+
+[![Hey, Doc!](./assets/live-demo.png)](http://www.youtube.com/watch?v=HO0ZZxaIXLs)
+
+<!-- ![database schema](./assets/yoursolution-schema.jpg) -->
 
 ## Technologies Used
 
@@ -14,3 +33,7 @@ https://expressjs.com
 
 3.  Knex  
 http://knexjs.org
+
+4. Heroku
+https://www.heroku.com
+

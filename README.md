@@ -19,7 +19,7 @@ https://your-solution-front.vercel.app
 
 Watch our team's live presentation of Hey, Doc! here: 
 
-[![Hey, Doc!](./assets/live-demo.png)](http://www.youtube.com/watch?v=HO0ZZxaIXLs)
+[![Hey, Doc!](./assets/live-demo.png)](https://youtu.be/HO0ZZxaIXLs?t=3807)
 
 <!-- ![database schema](./assets/yoursolution-schema.jpg) -->
 

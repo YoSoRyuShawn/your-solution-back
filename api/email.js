@@ -5,7 +5,6 @@ require("dotenv").config();
 const moment = require("moment");
 
 router.post("/", (req, res) => {
-  console.log;
   nodemailer.createTestAccount(async (err, account) => {
     const date = moment(`${req.body.date}`).format("MMM Do");
     const htmlEmail = `
